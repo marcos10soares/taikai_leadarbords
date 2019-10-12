@@ -1,0 +1,25 @@
+{
+  "name": "taikai_leaderbords",
+  "version": "1.0.0",
+  "description": "Scrape Taikai.network to generate event leaderboards",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcos10soares/taikai_leaderbords.git"
+  },
+  "keywords": [
+    "taikai",
+    "json",
+    "api",
+    "leaderboards"
+  ],
+  "author": "Marcos Soares",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/marcos10soares/taikai_leaderbords/issues"
+  },
+  "homepage": "https://github.com/marcos10soares/taikai_leaderbords#readme"
+}
