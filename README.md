@@ -30,5 +30,5 @@ taikai_leaderboards.getEvent("https://taikai.network/glinttinov/challenges/hacki
        url: 'https://taikai.network/tiagosantos85' },
      { dev: 'nrap', url: 'https://taikai.network/nrap' } ],
   funding: '8.000',
-  funding_nr: 8000 }
+  funding_int: 8000 }
 ```
