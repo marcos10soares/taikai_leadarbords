@@ -40,4 +40,4 @@ taikai_leaderboards.getEvent("https://taikai.network/glinttinov/challenges/hacki
 }
 ```
 
-** Vue + Bulma table visualization using this projects data: https://codepen.io/marcos10soares/pen/vYYLbZd **
+Vue + Bulma table visualization using this projects data: https://codepen.io/marcos10soares/pen/vYYLbZd
