@@ -7,17 +7,17 @@ A simple nodejs scraper to get any Taikai.network event leaderboard in json.
 
 ## Usage
 
-´´´javascript
+```javascript
 const taikai_leaderboards = require('./app.js')
 
 taikai_leaderboards.getEvent("https://taikai.network/glinttinov/challenges/hackinghealth/projects").then(res => {
     // gets winner of hackathon
     console.log(res.projects[0])
 })
-´´´
+```
 
 ## Example project json
-´´´json
+```javascript
 { title: 'medGPS',
   description:
    'Permite a um utente pesquisar as Farmácias em que os Produtos de que necessita estão disponíveis',
@@ -31,4 +31,4 @@ taikai_leaderboards.getEvent("https://taikai.network/glinttinov/challenges/hacki
      { dev: 'nrap', url: 'https://taikai.network/nrap' } ],
   funding: '8.000',
   funding_nr: 8000 }
-´´´
+```
