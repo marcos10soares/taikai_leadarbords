@@ -10,6 +10,9 @@ function dataToJSON(data) {
             let project = {
                 title: $('.card-anchor', projects[i]).text(),
                 description: $('p', projects[i]).first().text(),
+                backers: ($('.IucsM', projects[i]).text()).trim(),
+                avatar: ($('img', projects[i]).attr('src')).includes('https:') ? $('img', projects[i]).attr('src') : 'https://taikai.network' + $('img', projects[i]).attr('src'),
+                url: 'https://taikai.network' + $('.card-anchor', projects[i]).attr('href'),
                 devs: [],
                 funding: $('.kai', projects[i]).text(),
                 funding_int: parseInt(($('.kai', projects[i]).text()).replace('.', ''))
