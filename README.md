@@ -1,4 +1,4 @@
-# taikai_leaderbords
+# taikai_leaderboards
 A simple nodejs scraper to get any Taikai.network event leaderboard in json.
 
 ## Requirements
